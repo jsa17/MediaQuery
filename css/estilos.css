@@ -1,0 +1,102 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header,
+nav{
+    display: block;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    outline: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    transition: .5s all ease-in-out;
+    padding: 20px;
+}
+
+ul{
+    list-style: none;
+}
+
+.header-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    background-color: brown;
+    justify-content: space-between;
+}
+
+.nav-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-between;
+    background-color: brown;
+    overflow: hidden;
+    position: fixed;
+    border-bottom: 1px solid black;
+    padding:20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+
+}
+
+.menu-desktop,
+.menu-mobile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-mobile{
+    display: none;
+}
+
+
+
+.container-inferior{
+    font-size: 20px;
+    margin: 20px 20px;
+}
+
+.cabecera{
+    display: flex;
+    width: 100%;
+}
+
+.secundario{
+    width: 50%;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    margin-left: 35px;
+    margin-right: 40px;
+    display: flex;
+}
+
+.Texto{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: justify;
+}
+
+h1{
+    justify-content: right;
+}
+
+.container-texto{
+    padding-top: 200px;
+    padding-right: 20px;
+    text-align: justify;
+}
